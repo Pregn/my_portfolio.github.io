@@ -269,41 +269,146 @@ span{
   color:white;
 }
 
-@media only screen and (max-width: 575px) and (orientation: portrait)
-.wrapper-main{
-
-  width: 100%;
-  background-color: ;
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 575px) {
+  /* Your styles here */
+  .header {
+    padding: 20px 8%;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .navbar a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .home {
+    padding: 20px 8% 0;
+  }
+  .home-content {
+    max-width: 100%;
+  }
+  .home-content h3 {
+    font-size: 32px;
+  }
+  .home-content h1 {
+    font-size: 48px;
+  }
+  .sit {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .img-box img {
+    width: 300px;
+  }
+  .about {
+    padding: 12% 4%;
+    gap: 5em;
+  }
+  .about-img img {
+    width: 300px;
+  }
+  .contact-form form {
+    max-width: 90%;
+  }
+  .footer {
+    padding: 20px 0;
+  }
 }
 
-@media only screen and (max-width: 575px) and (orientation: landscape){
-.wrapper-main{
-
-  width: 100%;
-  background-color: ;
+/* Tablet devices */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* Your styles here */
+  .header {
+    padding: 25px 10%;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .navbar a {
+    font-size: 18px;
+    margin: 0 15px;
+  }
+  .home {
+    padding: 30px 10% 0;
+  }
+  .home-content {
+    max-width: 80%;
+  }
+  .home-content h3 {
+    font-size: 36px;
+  }
+  .home-content h1 {
+    font-size: 56px;
+  }
+  .sit {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .img-box img {
+    width: 350px;
+  }
+  .about {
+    padding: 12% 6%;
+    gap: 7em;
+  }
+  .about-img img {
+    width: 350px;
+  }
+  .contact-form form {
+    max-width: 80%;
+  }
+  .footer {
+    padding: 30px 0;
+  }
 }
-}
-@media only screen and (min-width: 576px) and (max-width: 991) {
-.wrapper-main{
 
-  width: 100%;
-  background-color: ;
-}
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200) {
-.wrapper-main{
-
-  width: 100%;
-  background-color:;
-}
-}
-
-
+/* Desktop devices */
 @media only screen and (min-width: 992px) {
-.wrapper-main{
-
-  width: 100%;
-  background-color:;
-}
+  /* Your styles here */
+  .header {
+    padding: 35px 12%;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .navbar a {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+  .home {
+    padding: 40px 12% 0;
+  }
+  .home-content {
+    max-width: 60%;
+  }
+  .home-content h3 {
+    font-size: 40px;
+  }
+  .home-content h1 {
+    font-size: 62px;
+  }
+  .sit {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+  .img-box img {
+    width: 400px;
+  }
+  .about {
+    padding: 12% 8%;
+    gap: 10em;
+  }
+  .about-img img {
+    width: 400px;
+  }
+  .contact-form form {
+    max-width: 70%;
+  }
+  .footer {
+    padding: 40px 0;
+  }
 }
